@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PhuTungXeMay
 {
-    internal class ProcessDatabase
+    internal class ProcessDatabase_KoDung
     {
         SqlConnection con = new SqlConnection(@"Data Source=DUNGLE\DUNGLEE;Initial Catalog=CuaHangSuaChuaXeMay;Integrated Security=True");
         public void KetNoi()
